@@ -45,6 +45,8 @@ Open the project you want to document and ask your agent:
 
 Ask for **audit** to receive findings without edits, **refine** to improve an existing README, or **create** when the project has none. The result is a local diff of Markdown and any prepared assets, plus a verification report. The agent checks its claims against the repository and distinguishes verified examples from instructions it has only read.
 
+Choose **very serious**, **neutral**, or **fancy** presentation. The skill asks when no preference is set; fancy mode can add subtle SVG separators. See [presentation styles](docs/usage.md#presentation-styles).
+
 ### Try the toolkit directly
 
 This example prepares an editorial review brief for a small fixture. Run it from this checkout:

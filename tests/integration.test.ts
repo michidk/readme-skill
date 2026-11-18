@@ -240,3 +240,26 @@ test("YouTube thumbnail selection falls back from unavailable and placeholder va
     server.stop(true);
   }
 });
+
+test("presentation stays unset until chosen and local choice overrides shared style", async () => {
+  const root = await fixture();
+  expect((await loadPolicy(root)).presentation).toBeUndefined();
+  const shared = join(root, "shared.json");
+  await writeFile(shared, JSON.stringify({ presentation: "fancy" }));
+  expect((await loadPolicy(root, shared)).presentation).toBe("fancy");
+  await writeFile(
+    join(root, "readme-skill.json"),
+    JSON.stringify({ presentation: "serious" }),
+  );
+  expect((await loadPolicy(root, shared)).presentation).toBe("serious");
+  await writeFile(
+    join(root, "readme-skill.json"),
+    JSON.stringify({ presentation: "neutral" }),
+  );
+  expect((await loadPolicy(root, shared)).presentation).toBe("neutral");
+  await writeFile(
+    join(root, "readme-skill.json"),
+    JSON.stringify({ presentation: "flashy" }),
+  );
+  await expect(loadPolicy(root, shared)).rejects.toThrow();
+});

@@ -28,6 +28,14 @@
         "archived"
       ]
     },
+    "presentation": {
+      "type": "string",
+      "enum": [
+        "serious",
+        "neutral",
+        "fancy"
+      ]
+    },
     "maxBadges": {
       "default": 4,
       "type": "integer",

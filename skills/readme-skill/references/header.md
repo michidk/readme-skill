@@ -2,6 +2,8 @@
 
 Use the user's original requirements and reference READMEs as design inputs. "Simple" means a clear hierarchy with deliberate visual choices, not automatically removing images or making every project text-only. For this collection, [CodeTend](https://github.com/michidk/codetend) is a preferred reference for the header's composition, not a source of artwork to copy.
 
+Apply the selected [presentation style](presentation.md). Fancy mode allows restrained decorative SVG separators; serious mode omits decorative separators, and neutral mode keeps the existing restrained treatment.
+
 ## Compose the opening
 
 A useful branded layout is a centered small logo and project name, one concise description, a short row of navigation links, a compact row of useful verified shields, and one project-specific hero. Keep the body left-aligned. A plain heading remains appropriate when branding is unwanted or no useful visual can be made. Honor an explicit visual request rather than treating optional imagery as permission to skip it.
@@ -15,7 +17,7 @@ A useful branded layout is a centered small logo and project name, one concise d
 - Ask the user before documenting a known issue or adding a warning unless they already explicitly requested it. Omit unfinished status, missing-license notices, and absent-release commentary. Do not invent risks or write an internal checklist into the public README.
 - Small decorators are allowed when they aid scanning or match the project's style. Avoid a mandatory emoji on every heading, technology-logo walls, decorative animations, and repeated messages.
 
-For HTML layout, use GitHub-compatible `h1`, `p align="center"`, `a`, and `img` with explicit width and alt text. Avoid custom CSS, script, or layout that depends on the local preview. Preserve useful anchors when changing a Markdown heading to HTML. Use empty alt text only for a decorative logo whose adjacent text already names the project.
+For HTML layout, use GitHub-compatible `h1`, `p align="center"`, `a`, and `img` with explicit width and alt text. Avoid custom CSS, script, or layout that depends on the local preview. Preserve useful anchors when changing a Markdown heading to HTML. Use empty alt text for purely decorative separators and for a decorative logo whose adjacent text already names the project.
 
 ## Review the whole visual set
 

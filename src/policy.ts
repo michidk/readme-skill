@@ -24,6 +24,7 @@ export const policySchema = z
     maturity: z
       .enum(["experimental", "active", "maintenance", "archived"])
       .optional(),
+    presentation: z.enum(["serious", "neutral", "fancy"]).optional(),
     maxBadges: z.number().int().min(0).max(20).default(4),
     imageBudgetBytes: z.number().int().positive().default(500_000),
     heroBudgetBytes: z.number().int().positive().default(300_000),

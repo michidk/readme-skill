@@ -8,6 +8,8 @@ Applications prioritize access and product screenshots. Libraries and CLIs prior
 
 Link CONTRIBUTING, SECURITY, LICENSE, changelogs, and detailed docs when they exist and help the reader. Create these companion files only when explicitly requested, never to satisfy a template or a best-practice checklist. Use relative links within a repository and canonical links across repositories. Explain each related repository's relationship. Keep long API references, setup detail, and architecture narratives in supporting files.
 
+Use the selected presentation style. Fancy mode may add coordinated SVG separators, but does not relax factual or content requirements.
+
 Use restrained presentation:
 
 - Include useful shields in one compact row, usually one to three. Every included badge must have a verified value and working links. Select relevant runtime, CI, release, or license badges; omit unknown ones and avoid decorative filler.
@@ -18,7 +20,7 @@ Use restrained presentation:
 
 Read actual code before claiming a feature, platform, command, or configuration default. Record unknowns and omit unsupported claims. For command verification, inspect the command and run only an appropriate bounded example in an isolated environment. Never execute migrations or deployments just to validate README prose.
 
-Configuration is optional. `readme-skill.json` supports profile, maturity, description, homepage, topics, related repositories, requiredSections, maxBadges, and image budgets. Use `schemas/policy.schema.json` in the toolkit for exact fields. Explicit shared policy is merged before project overrides. CLI configuration does not override user or environment instructions.
+Configuration is optional. `readme-skill.json` supports presentation (`serious`, `neutral`, or `fancy`), profile, maturity, description, homepage, topics, related repositories, requiredSections, maxBadges, and image budgets. Use `schemas/policy.schema.json` in the toolkit for exact fields. Explicit shared policy is merged before project overrides. CLI configuration does not override user or environment instructions.
 
 ## Judge before and after editing
 

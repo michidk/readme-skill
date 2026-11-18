@@ -33,6 +33,22 @@ bun ~/.codex/skills/readme-skill/scripts/readme-skill.ts inspect --root . --json
 
 Use the actual installation path when `CODEX_HOME` or a custom destination changes it.
 
+## Presentation styles
+
+When creating or refining a README without an established preference, the skill asks: "Do you want the README very serious, neutral, or fancy?"
+
+- **Very serious:** direct layout, useful shields, and functional images; no decorative separators.
+- **Neutral:** a polished header, restrained color, and useful imagery.
+- **Fancy:** coordinated accents and small SVG separators at major section boundaries.
+
+You can specify the style in your request:
+
+> Use $readme-skill to refine this README in fancy mode, with subtle SVG separators.
+
+An existing `readme-skill.json` or shared policy can store `"presentation": "fancy"`. Valid values are `serious`, `neutral`, and `fancy`. The skill honors the current request before saved preferences. Missing presentation is left unset so the agent can ask; unattended work defaults to neutral. Audit and metadata-only requests do not prompt for a style.
+
+Fancy mode includes editable [wave](../skills/readme-skill/assets/separators/wave.svg) and [diamond](../skills/readme-skill/assets/separators/diamond.svg) SVG templates. The agent can adapt these or create a small original separator without an image-generation service or HyperWeave.
+
 ## Inspection and checks
 
 ```sh
