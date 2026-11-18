@@ -1,6 +1,6 @@
 ---
 name: readme-skill
-description: Create, audit, or refine a GitHub project README using repository evidence, concise writing, screenshots, video thumbnails, and restrained graphics.
+description: Create, audit, or refine GitHub READMEs and set repository descriptions and topics using repository evidence and restrained visuals.
 ---
 
 # README Skill
@@ -13,6 +13,7 @@ Resolve paths relative to this skill's directory. Run `bun <skill>/scripts/readm
 
 ## Select the work
 
+- **Metadata:** prepare or update the repository description, topics, and an established homepage. Read [delivery.md](references/delivery.md); skip README editing and media generation unless also requested.
 - **Audit:** report findings without modifying tracked files or repository settings.
 - **Refine:** preserve accurate content and existing anchors, improve only what benefits the reader, and repair inaccurate claims and broken references.
 - **Create:** write a missing README. An existing README means refine unless the user explicitly requested replacement.

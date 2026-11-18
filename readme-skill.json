@@ -1,11 +1,13 @@
 {
   "profile": "cli",
   "maturity": "experimental",
-  "description": "An agent skill and Bun toolkit for clear GitHub READMEs, polished headers, image preparation, and evidence-based review.",
+  "description": "Create and refine GitHub READMEs with an agent skill, polished visuals, and repository-aware checks.",
   "topics": [
     "readme",
     "documentation",
     "agent-skills",
+    "ai-assisted",
+    "markdown",
     "github",
     "bun",
     "typescript"

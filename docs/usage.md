@@ -115,6 +115,12 @@ The [catalog](../examples/catalog.json) records explicit relationships between r
 
 Metadata commands never change settings or publish commits. The skill uses existing authorized GitHub tools for publication. Social-preview preparation and upload are separate steps. The CLI does not create GitHub repositories, releases, or PRs.
 
+You can also ask the agent to update metadata without editing the README:
+
+> Use $readme-skill to update this repository's GitHub description and topics from its existing content.
+
+The skill reads current settings, preserves unrelated topics, applies the requested updates, and reads them back to verify the result.
+
 ## Further reading
 
 - [Skill entrypoint](../skills/readme-skill/SKILL.md)
