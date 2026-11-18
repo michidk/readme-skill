@@ -16,7 +16,7 @@
 <p align="center">
   <a href="https://bun.sh"><img src="https://img.shields.io/badge/Bun-1.3%2B-24292f?logo=bun&amp;logoColor=white" alt="Requires Bun 1.3 or newer"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-246854" alt="MIT license"></a>
-  <a href="skills/readme-skill/SKILL.md"><img src="https://img.shields.io/badge/Agent_Skill-SKILL.md-246854" alt="Agent skill: SKILL.md"></a>
+  <a href="https://www.skills.sh/michidk/readme-skill/readme-skill"><img src="https://img.shields.io/badge/skills.sh-readme--skill-24292f" alt="Install README Skill from skills.sh"></a>
 </p>
 
 <p align="center">
