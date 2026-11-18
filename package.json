@@ -37,5 +37,6 @@
     "@types/mdast": "^4.0.4",
     "prettier": "^3.10.1",
     "typescript": "^7.0.2"
-  }
+  },
+  "license": "MIT"
 }

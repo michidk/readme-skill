@@ -1,5 +1,6 @@
 ---
 name: readme-skill
+license: MIT
 description: Create, audit, or refine GitHub READMEs and set repository descriptions and topics using repository evidence and restrained visuals.
 ---
 
