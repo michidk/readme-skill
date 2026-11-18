@@ -51,6 +51,10 @@ Include a restrained row of useful shields. Every included badge must have a ver
 
 Use a temporary/cache directory outside the target repo for reports and previews. Final images and their `.source.json` files belong with repository documentation assets. Source specifications are needed for repeatable edits. Do not delete unrelated or unowned assets.
 
+## Review linked documentation
+
+When the user requests the README and its linked documentation, use the companion `docs-skill` when available. It reviews audience, level of detail, evidence, and navigation across local Markdown links. README-only work does not automatically authorize a repository-wide rewrite. If the companion skill is unavailable, review the requested guides directly using the same content boundaries and report the files covered. Keep README presentation here and repository-wide editorial review in the companion skill.
+
 ## Metadata and delivery
 
 For related-repository links and GitHub presentation, read [delivery.md](references/delivery.md). Prepare concrete metadata proposals. Keep local generation and remote publication separate; apply settings or publish only when authorized. Follow the user's existing GitHub identity, signing, branch, and PR conventions.

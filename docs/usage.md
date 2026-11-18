@@ -41,6 +41,26 @@ bunx skills add michidk/readme-skill --skill readme-skill
 
 This installs the instructions, templates, and launcher. On first use, the agent follows the [toolkit setup instructions](../skills/readme-skill/references/toolkit-setup.md) to install the runtime beside the skill. Use the source-checkout installer above to install both at once.
 
+## Review repository documentation
+
+Use the instruction-only companion when the task includes guides beyond the README:
+
+```sh
+bunx skills add michidk/readme-skill --skill docs-skill
+```
+
+> Use $docs-skill to refine the README and its locally linked Markdown documentation. Review each page for its intended reader, preserve detailed references, and report which files were covered.
+
+It follows local documentation links and separates user guides, contributor instructions, explanations, and reference material. It does not require the Bun toolkit or add dependencies to the repository being reviewed. Use [README Skill](../skills/readme-skill/SKILL.md) for README branding and media, and [docs-skill](../skills/docs-skill/SKILL.md) for documentation structure and consistency.
+
+When the toolkit is installed, check a particular guide with:
+
+```sh
+bun run cli check --root /path/to/project --readme docs/guide.md --json
+```
+
+This checks one selected file, not the entire linked documentation set. Run it for each reviewed page. Missing-section warnings use README conventions; a reference page does not need installation or contribution sections merely to satisfy them. The agent still reviews the prose, abstraction level, and factual claims.
+
 ## Presentation styles
 
 When creating or refining a README without an established preference, the skill asks: "Do you want the README very serious, neutral, or fancy?"
@@ -54,6 +74,8 @@ You can specify the style in your request:
 > Use $readme-skill to refine this README in fancy mode, with subtle SVG separators.
 
 An existing `readme-skill.json` or shared policy can store `"presentation": "fancy"`. Valid values are `serious`, `neutral`, and `fancy`. The skill honors the current request before saved preferences. Missing presentation is left unset so the agent can ask; unattended work defaults to neutral. Audit and metadata-only requests do not prompt for a style.
+
+All styles can use compact table layouts for related screenshots, videos, or comparisons. Center media galleries as a group when appropriate; keep prose and instructions outside them. See [column layouts](../skills/readme-skill/references/presentation.md#optional-columns-with-tables).
 
 Fancy mode includes editable [wave](../skills/readme-skill/assets/separators/wave.svg) and [diamond](../skills/readme-skill/assets/separators/diamond.svg) SVG templates. The agent can adapt these or create a small original separator without an image-generation service or HyperWeave.
 

@@ -48,6 +48,18 @@ Ask for **audit** to receive findings without edits, **refine** to improve an ex
 
 Choose **very serious**, **neutral**, or **fancy** presentation. The skill asks when no preference is set; fancy mode can add subtle SVG separators. See [presentation styles](docs/usage.md#presentation-styles).
 
+### Review linked documentation
+
+The companion [docs-skill](skills/docs-skill/SKILL.md) reviews any repository Markdown, including guides linked from the README. It checks the audience, level of detail, factual support, and navigation without imposing README styling on every page.
+
+```sh
+bunx skills add michidk/readme-skill --skill docs-skill
+```
+
+> Use $docs-skill to refine the README and all locally linked documentation. Put normal user workflows first, keep advanced details discoverable, and report review coverage and verification gaps.
+
+This instruction-only skill needs no toolkit runtime. The source installer above installs `readme-skill`; install the companion separately with the command here.
+
 ### Try the toolkit directly
 
 This example prepares an editorial review brief for a small fixture. Run it from this checkout:

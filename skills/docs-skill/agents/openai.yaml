@@ -1,0 +1,4 @@
+interface:
+  display_name: "Repository Documentation"
+  short_description: "Review Markdown audience, detail, accuracy, and navigation"
+  default_prompt: "Use $docs-skill to refine this repository’s README and locally linked Markdown documentation, verify references, and report coverage and unresolved claims."
