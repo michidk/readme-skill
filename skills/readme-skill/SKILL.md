@@ -27,7 +27,7 @@ Use the user's target repository or the current project. Infer audience, project
 
 For create/refine, use an explicit style in the user's request first, then a preference already established in this conversation, then `presentation` from the merged project/shared policy. If none is known, ask once: "Do you want the README very serious, neutral, or fancy?" Offer neutral as the recommended choice. Continue repository inspection while waiting, but wait for the answer before changing presentation. Do not ask during audit or metadata-only work. If the user explicitly requested unattended work, use neutral when no preference is available and report that assumption.
 
-Read [presentation.md](references/presentation.md) for the three styles and SVG separator templates. Remember the choice for this task; save it in an existing project policy when appropriate. Do not create a configuration file just to remember a style unless requested. Style affects presentation, not factual accuracy, scope, or the rules below.
+Read [presentation.md](references/presentation.md) for the three styles, optional table-based column layouts, and SVG separator templates. Remember the choice for this task; save it in an existing project policy when appropriate. Do not create a configuration file just to remember a style unless requested. Style affects presentation, not factual accuracy, scope, or the rules below.
 
 ## Content boundaries
 
