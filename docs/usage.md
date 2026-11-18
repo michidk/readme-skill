@@ -33,6 +33,14 @@ bun ~/.codex/skills/readme-skill/scripts/readme-skill.ts inspect --root . --json
 
 Use the actual installation path when `CODEX_HOME` or a custom destination changes it.
 
+### Install through a skill directory
+
+```sh
+bunx skills add michidk/readme-skill --skill readme-skill
+```
+
+This installs the instructions, templates, and launcher. On first use, the agent follows the [toolkit setup instructions](../skills/readme-skill/references/toolkit-setup.md) to install the runtime beside the skill. Use the source-checkout installer above to install both at once.
+
 ## Presentation styles
 
 When creating or refining a README without an established preference, the skill asks: "Do you want the README very serious, neutral, or fancy?"

@@ -9,7 +9,9 @@ Produce a useful project entry point with accurate instructions and deliberate v
 
 ## Locate the toolkit
 
-Resolve paths relative to this skill's directory. Run `bun <skill>/scripts/readme-skill.ts --help` from any working directory. The installed skill includes a runtime; in a source checkout the launcher uses the enclosing project. If dependencies are missing, follow the toolkit's installation instructions rather than changing dependencies in the target project.
+Resolve paths relative to this skill's directory. Run `bun <skill>/scripts/readme-skill.ts --help` from any working directory. The project installer includes a runtime; in a source checkout the launcher uses the enclosing project.
+
+Directory installers such as `skills add` copy the skill folder without the toolkit. If the launcher reports a missing runtime, read [toolkit-setup.md](references/toolkit-setup.md) and install it inside the skill directory. Do not add toolkit dependencies to the target project. Do not overwrite an existing runtime or local edits.
 
 ## Select the work
 
