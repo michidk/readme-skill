@@ -20,6 +20,23 @@ Prefer two columns for media and give each a meaningful heading. For example, re
 | [![Play the game demo](docs/images/game-demo.webp)](https://www.youtube.com/watch?v=GAME_VIDEO_ID) | [![Play the editor demo](docs/images/editor-demo.webp)](https://www.youtube.com/watch?v=EDITOR_VIDEO_ID) |
 ```
 
+Center compact media galleries as a group, including their captions and images, when they are narrower than the README. Markdown `:---:` centers cell contents but does not center the table itself. For group alignment, use a GitHub-compatible HTML table with `align="center"` and explicit centered cells:
+
+```html
+<table align="center">
+  <tr>
+    <th align="center">Game demo</th>
+    <th align="center">Editor demo</th>
+  </tr>
+  <tr>
+    <td align="center"><a href="GAME_VIDEO_URL"><img src="docs/images/game-demo.webp" width="320" alt="Play the game demo"></a></td>
+    <td align="center"><a href="EDITOR_VIDEO_URL"><img src="docs/images/editor-demo.webp" width="320" alt="Play the editor demo"></a></td>
+  </tr>
+</table>
+```
+
+Replace example URLs and paths with verified destinations. Use HTML links and images inside HTML cells; do not assume Markdown will be parsed there. Keep prose and reference tables left-aligned unless their content benefits from another alignment. Centering is a media-layout option, not a rule for all tables or section headings.
+
 Prepare video thumbnails with the play indicators and cropping described in [media.md](media.md). Keep images similarly sized and preserve their aspect ratios. Keep cell text short; leave setup steps, code blocks and long explanations outside the table. Use tables for related items with useful labels rather than an entire page layout or unrelated prose columns.
 
 GitHub tables do not automatically stack into a single column on mobile and may scroll horizontally. Check narrow-width readability when rendering verification is available. If thumbnails or labels become too small, use vertically stacked content instead. Do not rely on custom CSS or responsive layout attributes that GitHub may strip.
