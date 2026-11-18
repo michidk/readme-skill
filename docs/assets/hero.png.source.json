@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "tool": "readme-workshop/0.1.0",
+  "inputHash": "88c255656c8aae5a1dfdd61c4ec1ecbe0a6a9fb99d1d40701724159153ccb15d",
+  "outputHash": "4d1e7149443437eec648b2e34faeaf9ba227412a9517ccd13915ac534b628203",
+  "specification": {
+    "operation": "media",
+    "format": ".png",
+    "width": 1200,
+    "quality": 85,
+    "play": false,
+    "crop": null,
+    "variant": "local",
+    "sharp": "0.35.5"
+  },
+  "source": "hero.svg"
+}

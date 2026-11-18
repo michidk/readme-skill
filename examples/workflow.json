@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "kind": "diagram",
+  "title": "README workflow",
+  "nodes": [
+    {"id":"inspect","label":"Inspect","desc":"Repository evidence"},
+    {"id":"refine","label":"Refine","desc":"Text and useful media"},
+    {"id":"verify","label":"Verify","desc":"Checks and visual review"}
+  ],
+  "edges": [{"source":"inspect","target":"refine"},{"source":"refine","target":"verify"}],
+  "face": "light"
+}

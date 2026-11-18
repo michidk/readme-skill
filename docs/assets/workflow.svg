@@ -1,0 +1,236 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:hw="https://hyperweave.app/hw/v1.0"
+     role="img"
+     aria-labelledby="hw-c21cd59f-title hw-c21cd59f-desc"
+     viewBox="0 0 400 525"
+     width="322" height="422"
+     shape-rendering="geometricPrecision"
+     data-hw-id="diagram-c21cd59f1cc3ab4b"
+     data-hw-type="diagram"
+     data-hw-frame="diagram"
+     data-hw-genome="primer"
+     data-hw-mode="light"
+     data-hw-status="active"
+     data-hw-state="frozen"
+     data-hw-profile="flat"
+     data-hw-motion="static"
+     data-hw-generation="1"
+     data-hw-contract="diagram-c21cd59f1cc3ab4b"
+     data-hw-size="default"
+     data-hw-fonts="system"
+     data-hw-regime="normal"
+     data-hw-topology="pipeline"
+     data-hw-subvariant="pipeline-vertical"
+     style="--dna-surface:#F7F9FC; --dna-surface-alt:#FFFFFF; --dna-surface-deep:#F7F9FC; --dna-ink-primary:#1E293B; --dna-ink-muted:#637486; --dna-ink-secondary:#637486; --dna-ink-on-accent:#FFFFFF; --dna-signal:#0070F3; --dna-signal-dim:#5C7C9E; --dna-status-passing-core:#15803D; --dna-status-warning-core:#B45309; --dna-status-failing-core:#DC2626; --dna-border:#E9EDF3; --dna-region:#F8F9FB; --dna-region-border:#E9EDF3; --dna-label-text:#1D4ED8; --dna-ink-ghost:#1D4ED8; --dna-glyph-inner:#1D4ED8; --dna-border-tint:rgba(30,58,95,0.12); --dna-border-div:rgba(30,58,95,0.12); --dna-seam-color:#1D4ED8; --dna-shadow-color:#1D4ED8; --dna-diagram-shadow-color:#101828; --dna-bg:#F5F8FF; --dna-bg-alt:#E8EFFA; --dna-ink-bright:#0F172A; --dna-ink-sub:#5C7C9E; --dna-ink-tertiary:#5C7C9E; --dna-brand-text:#1E3A5F; --dna-metric-text:#1E3A5F; --dna-seam-gap:#E8EFFA; --dna-badge-value-text:#1E3A5F; --dna-badge-pass-sep:#1D4ED8; --dna-badge-pass-core:#15803D; --dna-frame-fill:#F5F8FF; --dna-chart-title-bg:#FFFFFF; --dna-ink-icon:#343E4F;"
+     id="hw-c21cd59f"
+     data-hw-face="light"
+     data-hw-chromatic="primer">
+  <title id="hw-c21cd59f-title">README workflow</title>
+  <desc id="hw-c21cd59f-desc">README workflow: pipeline-vertical diagram, 3 nodes, 2 edges. Flow: Inspect → Refine; Refine → Verify. Full data in hw:payload.</desc>
+  <!-- agents: this is a HyperWeave living artifact. Its data is in <metadata> — hw:payload (lossless seed, replant to regenerate) and hw:envelope (compact hwz/1 digest, ~200 tokens, actionable). Verbs over the seed: extract · verify · transform · diff · query. Contract: https://hyperweave.app/llms.txt -->
+  <metadata>
+  <hw:artifact id="diagram-c21cd59f1cc3ab4b" type="diagram" series="core" version="0.4.7"
+               xmlns:hw="https://hyperweave.app/hw/v1.0">
+    <hw:provenance>
+      <hw:generator>HyperWeave Compositor v0.4.7 (InnerAura Labs)</hw:generator>
+      <hw:created>2026-11-18T13:37:59.582813+00:00</hw:created>
+      <hw:human-directed>true</hw:human-directed>
+    </hw:provenance>
+    <hw:spec size="322x422" size-units="px" performance="composite-only"
+             theme="light" a11y="WCAG-AA" platform="github-readme"/>
+  </hw:artifact>
+  <hw:composition xmlns:hw="https://hyperweave.app/hw/v1.0">
+    <hw:frame>diagram</hw:frame>
+    <hw:genome>primer@0.4.7</hw:genome>
+    <hw:variant>porcelain</hw:variant>
+    <hw:profile>flat</hw:profile>
+    <hw:stratum>002-TRIBE</hw:stratum>
+    <hw:slots>
+    </hw:slots>
+    <hw:environment platform="github-readme" motion="static" status="active"/>
+  </hw:composition>
+  <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+           xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <rdf:Description>
+      <dc:title>README workflow</dc:title>
+      <dc:creator>HyperWeave Compositor v0.4.7 (InnerAura Labs)</dc:creator>
+      <dc:date>2026-11-18T13:37:59.582813+00:00</dc:date>
+      <dc:rights>CC BY 4.0</dc:rights>
+    </rdf:Description>
+  </rdf:RDF>
+  <hw:aesthetic xmlns:hw="https://hyperweave.app/hw/v1.0">
+    <hw:chromatic system="primer" space="oklch"
+                  palette="porcelain" contrast-ratio="4.6:1" contrast-worst-pair="ink-secondary/surface"/>
+    <hw:motion vocabulary="static" physics="none"
+               timing="none" rhythm-base="2.618s"
+               stagger-regime="none" cim-compliant="true"/>
+    <hw:geometry form-language="editorial" corner-radius="5px"
+                 grid="auto" proportional-system="phi"
+                 mathematical-basis="golden-ratio" symmetry="bilateral"/>
+    <hw:typography stack="'Inter',-apple-system,system-ui,sans-serif, 'JetBrains Mono','SF Mono','Consolas',ui-monospace,monospace" hierarchy="11/18/8"
+                   weight-range="500-900" metrics-method="lut"/>
+    <hw:material surface="genome-native" depth="shallow" texture="none"/>
+  </hw:aesthetic>
+  <hw:chromatic-surface xmlns:hw="https://hyperweave.app/hw/v1.0">
+    <hw:zone id="chassis" capability="chromatic-override" count="46" tokens="--dna-badge-pass-core --dna-badge-pass-sep --dna-badge-value-text --dna-bg --dna-bg-alt --dna-border --dna-border-div --dna-border-tint --dna-brand-text --dna-chart-title-bg --dna-corner --dna-diagram-shadow-color --dna-font-display --dna-font-mono --dna-frame-fill --dna-glow --dna-glyph-inner --dna-ink-bright --dna-ink-ghost --dna-ink-icon --dna-ink-muted --dna-ink-on-accent --dna-ink-primary --dna-ink-secondary --dna-ink-sub --dna-ink-tertiary --dna-label-text --dna-metric-text --dna-region --dna-region-border --dna-rhythm-base --dna-seam-color --dna-seam-gap --dna-sep --dna-shadow-color --dna-signal --dna-signal-dim --dna-signal-text --dna-status-delta-negative --dna-status-delta-positive --dna-status-failing-core --dna-status-passing-core --dna-status-warning-core --dna-surface --dna-surface-alt --dna-surface-deep"/>
+    <hw:zone id="material" capability="fixed" sinks="fill stroke stop-color flood-color" reason="var() does not resolve in an SVG presentation attribute, so this paint is decided at compose time"/>
+  </hw:chromatic-surface>
+  <hw:reasoning xmlns:hw="https://hyperweave.app/hw/v1.0">
+    <hw:intent>The same topology grammar on light paper: white cards lifted by a
+two-layer drop shadow, royal-blue signal hero ring, 600-700-level
+flow hues against the pale ground; the explanatory sibling of the
+porcelain matrix.</hw:intent>
+    <hw:approach>Identical chassis solve as the dark substrate (the geometry is
+substrate-blind): 64px fan pitch, 92px convergence pitch meeting
+at one point on the hero&apos;s facing edge, sequence lifelines at a
+255px gap with 56px message pitch on a 5.236s replay clock.
+Cards bind --dna-surface-alt over --dna-border hairlines; node
+dots and branch strokes cycle the genome diagram_flow palette by
+non-hero order.</hw:approach>
+    <hw:tradeoffs>The 6 percent lift shadow that seats cards on light paper is a
+literal genome value (var() never resolves in filter attributes),
+so per-variant shadow retunes are config edits, not CSS; muted
+comparison cards drop their accent dot entirely, trading slot
+symmetry for the inert-versus-live read the topology exists to
+assert.</hw:tradeoffs>
+    <hw:constraints-applied>system-fonts, cim-compliant, wcag-aa</hw:constraints-applied>
+    <hw:spatial-notes>400x525, render 322x422; bottom-to-top stack; 3 nodes, 2 edges</hw:spatial-notes>
+  </hw:reasoning>
+  <hw:payload xmlns:hw="https://hyperweave.app/hw/v1.0" schema="diagram/1" media-type="application/json"><![CDATA[{"spec":{"title":"README workflow","topology":"pipeline","orientation":"vertical","chassis":{"width":400,"node":{"w":280,"h":80},"card_min_w":280},"nodes":[{"id":"inspect","label":"Inspect","desc":"Repository evidence","role":"hero"},{"id":"refine","label":"Refine","desc":"Text and useful media","role":"default"},{"id":"verify","label":"Verify","desc":"Checks and visual review","role":"default"}],"edges":[{"source":"inspect","target":"refine"},{"source":"refine","target":"verify"}],"surface":{"face":"light"}},"rendered":{"edge_motion":["dash","dash"],"track":["dash-march","dash-march"],"glyph_tint":["","",""],"glyph_backing":["","",""],"performance":"paint-ok","fallback_applied":false}}]]></hw:payload>
+  <hw:envelope xmlns:hw="https://hyperweave.app/hw/v1.0" format="hwz/1" media-type="application/json"><![CDATA[{"v":"hwz/1","id":"sha256:c9c6c9a79ce7d11c546830a8492c3375e4871e9b54acec172c1156b35b3293dc","k":"diagram","title":"README workflow","intent":"topology diagram: README workflow","state":"active","data":{"pattern":"pipeline","n":3,"hero":"Inspect","nodes":{"Inspect":"Repository evidence","Refine":"Text and useful media","Verify":"Checks and visual review"},"edges":["Inspect → Refine","Refine → Verify"]},"frames":[{"t":"diagram","l":"README workflow"}],"prov":{"by":"hyperweave","ver":"0.4.7","genome":"primer.porcelain","ts":"2026-11-18T13:37:59.582813+00:00"}}]]></hw:envelope>
+  <hw:regions xmlns:hw="https://hyperweave.app/hw/v1.0" media-type="application/json" units="user" viewbox="0 0 400 525"><![CDATA[[{"id":"content","bbox":[107.0,24.0,186.0,416.4],"margin":[24.0,60.0,24.0,60.0],"strategy":"block"},{"id":"footer","bbox":[138.3,464.4,123.3,17.0],"margin":[24.0,60.0,44.0,60.0],"strategy":"block"}]]]></hw:regions>
+</metadata>
+  <style>/* hw:css-modules: genome,accessibility,fonts */
+svg, :root {
+  --dna-surface: #F7F9FC;
+  --dna-surface-alt: #FFFFFF;
+  --dna-surface-deep: #F7F9FC;
+  --dna-ink-primary: #1E293B;
+  --dna-ink-muted: #637486;
+  --dna-ink-on-accent: #FFFFFF;
+  --dna-ink-bright: #0F172A;
+  --dna-ink-sub: #5C7C9E;
+  --dna-signal: #0070F3;
+  --dna-signal-text: #0070F3;
+  --dna-signal-dim: #5C7C9E;
+  --dna-border: #E9EDF3;
+  --dna-border-tint: rgba(30,58,95,0.12);
+  --dna-seam-color: #1D4ED8;
+  --dna-chart-title-bg: #FFFFFF;
+  --dna-shadow-color: #1D4ED8;
+  --dna-diagram-shadow-color: #101828;
+  --dna-region: #F8F9FB;
+  --dna-region-border: #E9EDF3;
+  --dna-glow: 0px;
+  --dna-corner: 6;
+  --dna-rhythm-base: 2.618s;
+  --dna-bg: #F5F8FF;
+  --dna-bg-alt: #E8EFFA;
+  --dna-brand-text: #1E3A5F;
+  --dna-font-display: 'Inter',-apple-system,system-ui,sans-serif;
+  --dna-font-mono: 'JetBrains Mono','SF Mono','Consolas',ui-monospace,monospace;
+  --dna-ink-icon: #343E4F;
+  --dna-sep: #E9EDF3;
+  --dna-status-delta-positive: #22C55E;
+  --dna-status-delta-negative: #DC2626;
+}
+/* === HyperWeave Accessibility Layer ===
+ * Non-negotiable media queries for motion, color scheme, and forced colors.
+ * Included in EVERY artifact.
+ *
+ * CAMO NOTE (corrected 2026-08-30): an SVG served as an img — GitHub's Camo
+ * proxy included — evaluates @media (prefers-color-scheme) against the
+ * EMBEDDING element's used color-scheme (Media Queries 5; CSSWG #7213).
+ * Chromium and Firefox implement this, so the adaptive flip works in GitHub
+ * READMEs there (owner-observed on github.com, 2026-08-30). WebKit does not
+ * evaluate it in image contexts (wpt Interop #1058), so Safari and iOS
+ * readers get the artifact's BASE face — the recorded iPhone 13 behavior.
+ * Treat the single-file flip as progressive enhancement; the committed-face
+ * picture pair stays the cross-engine delivery. forced-colors remains
+ * unreliable in image contexts (CSSWG #10331). An img context also loads NO
+ * external resources of any kind, which is why the cdn font mode and
+ * github-readme delivery are mutually exclusive.
+ *
+ * Inline, object, and standalone embeds evaluate every query everywhere.
+ */
+/* ── Reduced Motion ── */
+@media (prefers-reduced-motion: reduce) {*, *::before, *::after {
+    
+    
+    transition-duration: 0.01ms !important;
+  }
+animate, animateTransform, animateMotion, set {
+    display: none !important;
+  }}
+/* ── Light Mode Override (see CAMO NOTE above — inert through img) ── */
+/* Light mode: genome alleles injected by CSS assembler into per-artifact @media block. */
+/* ── Forced Colors (Windows High Contrast) ── */
+@media (forced-colors: active) {text { fill: CanvasText !important; }
+rect, path, circle, ellipse, polygon, polyline, line {
+    stroke: CanvasText !important;
+  }}</style>
+  <defs>
+<filter id="hw-c21cd59f-lift" color-interpolation-filters="sRGB" x="-70%" y="-80%" width="240%" height="280%">
+  <feDropShadow dx="0" dy="1" stdDeviation="1.5" flood-color="#101828" flood-opacity="0.04"/>
+  <feDropShadow dx="0" dy="6" stdDeviation="12" flood-color="#101828" flood-opacity="0.045"/>
+</filter>
+<linearGradient id="hw-c21cd59f-hf" x1="0" y1="0" x2="0" y2="1">
+  <stop offset="0" stop-color="#FFFFFF"/>
+  <stop offset="0.7" stop-color="#FFFFFF"/>
+  <stop offset="1" stop-color="#F7F9FC"/>
+</linearGradient>
+<linearGradient id="hw-c21cd59f-hr" x1="0" y1="0" x2="0" y2="1">
+  <stop offset="0" stop-color="#FFFFFF"/>
+  <stop offset="0.4" stop-color="#8690A2"/>
+  <stop offset="1" stop-color="#748294"/>
+</linearGradient>
+<style>.hw-c21cd59f-name { font-family: 'Inter', system-ui, sans-serif; font-size: 15.0px; font-weight: 600; letter-spacing: 0.0em; }
+.hw-c21cd59f-ndesc { font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 11.0px; font-weight: 400; letter-spacing: 0.01em; }
+.hw-c21cd59f-hname { font-family: 'Inter', system-ui, sans-serif; font-size: 17.0px; font-weight: 700; letter-spacing: 0.0em; }
+.hw-c21cd59f-hdesc { font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 11.0px; font-weight: 500; letter-spacing: 0.01em; }
+.hw-c21cd59f-cap { font-family: 'Inter', system-ui, sans-serif; font-size: 14.0px; font-weight: 400; letter-spacing: 0.0em; }
+/* Chassis paints by role — the genome expresses through --dna-*; the flow
+   palette below is the communication layer (per-variant genome data). */
+.hw-c21cd59f-name, .hw-c21cd59f-hname { fill: #1E293B; }
+.hw-c21cd59f-ndesc, .hw-c21cd59f-cap { fill: #637486; }
+/* LAW 2: annotation chrome text rides the SAME ink roles as frame content —
+   a voice class with no fill rule inherits SVG black (invisible on dark
+   grounds); every emitted cls below MUST appear in a fill rule (pinned). */
+.hw-c21cd59f-hdesc { fill: #0070F3; }
+.hw-c21cd59f-cardbg { fill: #FFFFFF; stroke: #E9EDF3; }
+.hw-c21cd59f-herobg { fill: url(#hw-c21cd59f-hf); stroke: url(#hw-c21cd59f-hr); }
+/* Lanes category-by-MARK (the obi-engine morphology idiom, never hue): 'ring'
+   is the one OPEN mark — paper fill + ink stroke, reading as "not yet filled
+   in"; disc/diamond/square reuse -idot (a plain ink fill); 'disc-muted' fills
+   muted ink (a recessed endpoint — the external providers). */
+.hw-c21cd59f-branch { fill: none; stroke-width: 1.5; stroke-linecap: round; }
+/* Annotation chrome: leader hairline, callout/aside box, badge pill.
+   The overlay layer reads as chrome — border-toned, never state color. */
+.hw-c21cd59f-fl0 { stroke: #0070F3; }
+.hw-c21cd59f-connmuted { stroke: #8690A2; }
+.hw-c21cd59f-m0 { stroke-dasharray: 2 7; will-change: stroke-dashoffset;  }
+.hw-c21cd59f-m1 { stroke-dasharray: 2 7; will-change: stroke-dashoffset;  }
+
+.hw-c21cd59f-in {  }
+
+@media (prefers-reduced-motion: reduce) {.hw-c21cd59f-branch, .hw-c21cd59f-in {  }}</style>
+  </defs>
+<rect width="400" height="525" fill="#F7F9FC"/>
+<g class="hw-c21cd59f-in">
+<g aria-hidden="true">
+  <path id="hw-c21cd59f-c0" d="M 200,24 L 200,286.4" class="hw-c21cd59f-branch hw-c21cd59f-fl0 hw-c21cd59f-m0"/>
+  <path id="hw-c21cd59f-c1" d="M 200,206.4 L 200,440.4" class="hw-c21cd59f-branch hw-c21cd59f-connmuted hw-c21cd59f-m1"/>
+</g>
+  <rect x="124.0" y="24.0" width="152" height="86.38" rx="16.0" class="hw-c21cd59f-herobg" stroke-width="1.5" filter="url(#hw-c21cd59f-lift)"/>
+  <text x="136.0" y="62.08" class="hw-c21cd59f-hname">Inspect</text>
+  <text x="136.0" y="82.45999999999998" class="hw-c21cd59f-hdesc">Repository evidence</text>
+  <rect x="107.0" y="206.38" width="186" height="80.0" rx="13.0" class="hw-c21cd59f-cardbg" stroke-width="1.0" filter="url(#hw-c21cd59f-lift)"/>
+  <text x="119.0" y="241.20000000000005" class="hw-c21cd59f-name">Refine</text>
+  <text x="119.0" y="260.24000000000007" class="hw-c21cd59f-ndesc">Text and useful media</text>
+  <rect x="107.0" y="360.38" width="186" height="80.0" rx="13.0" class="hw-c21cd59f-cardbg" stroke-width="1.0" filter="url(#hw-c21cd59f-lift)"/>
+  <text x="119.0" y="395.20000000000005" class="hw-c21cd59f-name">Verify</text>
+  <text x="119.0" y="414.24000000000007" class="hw-c21cd59f-ndesc">Checks and visual review</text>
+<g data-hw-region="footer">  <text x="138.33636363636364" y="478.38" class="hw-c21cd59f-cap">README workflow</text>
+</g>
+</g>
+</svg>

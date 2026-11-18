@@ -1,0 +1,26 @@
+{
+  "profile": "cli",
+  "maturity": "experimental",
+  "description": "An agent skill and Bun toolkit for clear GitHub READMEs, polished headers, image preparation, and evidence-based review.",
+  "topics": [
+    "readme",
+    "documentation",
+    "agent-skills",
+    "github",
+    "bun",
+    "typescript"
+  ],
+  "requiredSections": [
+    "usage"
+  ],
+  "maxBadges": 3,
+  "heroBudgetBytes": 300000,
+  "imageBudgetBytes": 500000,
+  "related": [
+    {
+      "repository": "InnerAura/hyperweave",
+      "relationship": "Optional graphics renderer",
+      "description": "Renders the static badges and small pipeline diagrams supported by README Skill."
+    }
+  ]
+}

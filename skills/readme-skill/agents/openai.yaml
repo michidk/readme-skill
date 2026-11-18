@@ -1,0 +1,4 @@
+interface:
+  display_name: "README Skill"
+  short_description: "Refine READMEs with evidence and restrained visuals"
+  default_prompt: "Use $readme-skill to refine this repository's README, verify its claims, and prepare useful visuals."

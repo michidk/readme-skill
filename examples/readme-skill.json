@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "profile": "cli",
+  "maturity": "experimental",
+  "description": "Refine GitHub READMEs with repository evidence and restrained visuals.",
+  "topics": ["readme", "documentation", "agent-skills"],
+  "maxBadges": 4,
+  "requiredSections": ["usage", "contributing", "license"]
+}

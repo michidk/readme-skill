@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "tool": "readme-workshop/0.1.0",
+  "inputHash": "b2e8d75f9df6e8c1a8c76c2966026c670f9720316f672f1d5a792e2780405aa8",
+  "outputHash": "94909f02c4e0db40a27f1393ba1a9bc6728224edb1c1c6f6598f5899842d2f7a",
+  "specification": {
+    "schemaVersion": 1,
+    "kind": "badge",
+    "label": "STATUS",
+    "value": "experimental",
+    "face": "light",
+    "renderer": "hyperweave/0.4.7",
+    "theme": "primer.porcelain",
+    "layoutRevision": 3,
+    "rasterizer": "0.35.5",
+    "format": ".svg"
+  },
+  "source": "status.json"
+}

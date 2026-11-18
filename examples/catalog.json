@@ -1,0 +1,8 @@
+{
+  "schemaVersion": 1,
+  "repositories": {
+    "example/client": [
+      {"repository":"example/server","relationship":"server","description":"API server used by this client."}
+    ]
+  }
+}

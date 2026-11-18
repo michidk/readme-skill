@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "tool": "readme-workshop/0.1.0",
+  "inputHash": "5208f215449627525ba254b974c103c69abb38f0fdf37ea573273464d95cd3d2",
+  "outputHash": "44df316abbc190958077e81a5269f014590450b2a291473f88729d133d38433b",
+  "specification": {
+    "schemaVersion": 1,
+    "kind": "diagram",
+    "title": "README workflow",
+    "orientation": "vertical",
+    "nodes": [
+      {
+        "id": "inspect",
+        "label": "Inspect",
+        "desc": "Repository evidence"
+      },
+      {
+        "id": "refine",
+        "label": "Refine",
+        "desc": "Text and useful media"
+      },
+      {
+        "id": "verify",
+        "label": "Verify",
+        "desc": "Checks and visual review"
+      }
+    ],
+    "edges": [
+      {
+        "source": "inspect",
+        "target": "refine"
+      },
+      {
+        "source": "refine",
+        "target": "verify"
+      }
+    ],
+    "face": "light",
+    "renderer": "hyperweave/0.4.7",
+    "theme": "primer.porcelain",
+    "layoutRevision": 3,
+    "rasterizer": "0.35.5",
+    "format": ".svg"
+  },
+  "source": "workflow.json"
+}

@@ -1,0 +1,356 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:hw="https://hyperweave.app/hw/v1.0"
+     role="img"
+     aria-labelledby="hw-5fef5601-title hw-5fef5601-desc"
+     viewBox="0 0 159.3 20"
+     width="159.3" height="20"
+     shape-rendering="geometricPrecision"
+     data-hw-id="badge-5fef560100640679"
+     data-hw-type="badge"
+     data-hw-frame="badge"
+     data-hw-genome="primer"
+     data-hw-mode="light"
+     data-hw-status="active"
+     data-hw-state="frozen"
+     data-hw-profile="flat"
+     data-hw-motion="static"
+     data-hw-generation="1"
+     data-hw-contract="badge-5fef560100640679"
+     data-hw-size="default"
+     data-hw-fonts="system"
+     data-hw-regime="normal"
+     data-hw-statemode="auto"
+     data-hw-state-shape="status-glyph"
+     style="--dna-surface:#F5F8FF; --dna-surface-alt:#FFFFFF; --dna-surface-deep:#E8EFFA; --dna-ink-primary:#1E3A5F; --dna-ink-muted:#537395; --dna-ink-secondary:#537395; --dna-ink-on-accent:#FFFFFF; --dna-signal:#1D4ED8; --dna-signal-dim:#5C7C9E; --dna-status-passing-core:#15803D; --dna-status-warning-core:#B45309; --dna-status-failing-core:#DC2626; --dna-border:#C7D5EA; --dna-region:#F8F9FB; --dna-region-border:#E9EDF3; --dna-label-text:#1D4ED8; --dna-ink-ghost:#1D4ED8; --dna-glyph-inner:#1D4ED8; --dna-border-tint:rgba(30,58,95,0.12); --dna-border-div:rgba(30,58,95,0.12); --dna-seam-color:#1D4ED8; --dna-shadow-color:#1D4ED8; --dna-diagram-shadow-color:#101828; --dna-bg:#F5F8FF; --dna-bg-alt:#E8EFFA; --dna-ink-bright:#1E3A5F; --dna-ink-sub:#5C7C9E; --dna-ink-tertiary:#5C7C9E; --dna-brand-text:#1E3A5F; --dna-metric-text:#1E3A5F; --dna-seam-gap:#E8EFFA; --dna-badge-value-text:#1E3A5F; --dna-badge-pass-sep:#1D4ED8; --dna-badge-pass-core:#15803D; --dna-frame-fill:#F5F8FF; --dna-chart-title-bg:#FFFFFF; --dna-ink-icon:#344E6F;"
+     id="hw-5fef5601"
+     data-hw-chromatic="primer">
+  <title id="hw-5fef5601-title">STATUS: experimental</title>
+  <desc id="hw-5fef5601-desc">A badge artifact, using primer genome.</desc>
+  <!-- agents: this is a HyperWeave living artifact. Its data is in <metadata> — hw:payload (lossless seed, replant to regenerate) and hw:envelope (compact hwz/1 digest, ~200 tokens, actionable). Verbs over the seed: extract · verify · transform · diff · query. Contract: https://hyperweave.app/llms.txt -->
+  <metadata>
+  <hw:artifact id="badge-5fef560100640679" type="badge" series="core" version="0.4.7"
+               xmlns:hw="https://hyperweave.app/hw/v1.0">
+    <hw:provenance>
+      <hw:generator>HyperWeave Compositor v0.4.7 (InnerAura Labs)</hw:generator>
+      <hw:created>2026-11-18T13:38:03.890938+00:00</hw:created>
+      <hw:human-directed>true</hw:human-directed>
+    </hw:provenance>
+    <hw:spec size="159.3x20" size-units="px" performance="composite-only"
+             theme="light" a11y="WCAG-AA" platform="github-readme"/>
+  </hw:artifact>
+  <hw:composition xmlns:hw="https://hyperweave.app/hw/v1.0">
+    <hw:frame>badge</hw:frame>
+    <hw:genome>primer@0.4.7</hw:genome>
+    <hw:variant>porcelain</hw:variant>
+    <hw:profile>flat</hw:profile>
+    <hw:stratum>002-TRIBE</hw:stratum>
+    <hw:slots>
+    </hw:slots>
+    <hw:environment platform="github-readme" motion="static" status="active"/>
+  </hw:composition>
+  <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+           xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <rdf:Description>
+      <dc:title>STATUS: experimental</dc:title>
+      <dc:creator>HyperWeave Compositor v0.4.7 (InnerAura Labs)</dc:creator>
+      <dc:date>2026-11-18T13:38:03.890938+00:00</dc:date>
+      <dc:rights>CC BY 4.0</dc:rights>
+    </rdf:Description>
+  </rdf:RDF>
+  <hw:aesthetic xmlns:hw="https://hyperweave.app/hw/v1.0">
+    <hw:chromatic system="primer" space="oklch"
+                  palette="porcelain" contrast-ratio="4.6:1" contrast-worst-pair="ink-secondary/surface"/>
+    <hw:motion vocabulary="static" physics="none"
+               timing="none" rhythm-base="2.618s"
+               stagger-regime="none" cim-compliant="true"/>
+    <hw:geometry form-language="editorial" corner-radius="5px"
+                 grid="auto" proportional-system="phi"
+                 mathematical-basis="golden-ratio" symmetry="bilateral"/>
+    <hw:typography stack="'Inter',-apple-system,system-ui,sans-serif, 'JetBrains Mono','SF Mono','Consolas',ui-monospace,monospace" hierarchy="11/18/8"
+                   weight-range="500-900" metrics-method="lut"/>
+    <hw:material surface="genome-native" depth="shallow" texture="none"/>
+  </hw:aesthetic>
+  <hw:chromatic-surface xmlns:hw="https://hyperweave.app/hw/v1.0">
+    <hw:zone id="chassis" capability="chromatic-override" count="52" tokens="--dna-badge-pass-core --dna-badge-pass-sep --dna-badge-value-text --dna-badge-warn-color --dna-bg --dna-bg-alt --dna-border --dna-border-div --dna-border-tint --dna-brand-text --dna-chart-title-bg --dna-corner --dna-density --dna-diagram-shadow-color --dna-font-display --dna-font-mono --dna-frame-fill --dna-glow --dna-glyph-inner --dna-ink-bright --dna-ink-ghost --dna-ink-icon --dna-ink-muted --dna-ink-on-accent --dna-ink-primary --dna-ink-secondary --dna-ink-sub --dna-ink-tertiary --dna-label-text --dna-material-roughness --dna-material-specular --dna-metric-text --dna-region --dna-region-border --dna-rhythm-base --dna-rhythm-fast --dna-rhythm-slow --dna-seam-color --dna-seam-gap --dna-sep --dna-shadow-color --dna-signal --dna-signal-dim --dna-status-color --dna-status-delta-negative --dna-status-delta-positive --dna-status-failing-core --dna-status-passing-core --dna-status-warning-core --dna-surface --dna-surface-alt --dna-surface-deep"/>
+    <hw:zone id="material" capability="fixed" sinks="fill stroke stop-color flood-color" reason="var() does not resolve in an SVG presentation attribute, so this paint is decided at compose time"/>
+  </hw:chromatic-surface>
+  <hw:reasoning xmlns:hw="https://hyperweave.app/hw/v1.0">
+    <hw:intent>The same 20px two-plate rail with the white-on-white seam — the split
+reads as a pressed crease in the white ground (ink at 0.09 + white at
+0.85), not a drawn rule, so eight variants share one anatomy.</hw:intent>
+    <hw:approach>Label plate tinted rgba(ink,0.03); seam = 1px ink-0.09 groove + 1px
+white-0.85 shine; inner white-0.55 highlight inset 0.6 at rx 3.4 under
+a 1px stroke border; a hair drop-shadow (shadow_color at 0.16, dy 0.5
+blur 1) lifts the chip off the README white.</hw:approach>
+    <hw:tradeoffs>White-on-white plates instead of a surface_2 tone block — a tone block
+reads as a generic two-tone shields badge. Mono label runs muted
+ink_secondary, not accent: one accent family per chip (the glyph),
+not three.</hw:tradeoffs>
+    <hw:constraints-applied>system-fonts, cim-compliant, wcag-aa</hw:constraints-applied>
+    <hw:spatial-notes>159x20 (7.95), left-to-right</hw:spatial-notes>
+  </hw:reasoning>
+  <hw:payload xmlns:hw="https://hyperweave.app/hw/v1.0" schema="badge/1" media-type="application/json"><![CDATA[{"title":"STATUS","value":"experimental","state":"active"}]]></hw:payload>
+  <hw:envelope xmlns:hw="https://hyperweave.app/hw/v1.0" format="hwz/1" media-type="application/json"><![CDATA[{"v":"hwz/1","id":"sha256:ba6032053ab9be44f10bebcee5a1f40e259478e15a11160826c9f23e4ec4ae41","k":"badge","title":"STATUS","intent":"The same 20px two-plate rail with the white-on-white seam — the split\nreads as a pressed crease in the white ground (ink at 0.09 + white at\n0.85), not a drawn rule, so eight variants share one anatomy.","state":"active","data":{"value":"experimental"},"frames":[{"t":"badge","l":"STATUS"}],"prov":{"by":"hyperweave","ver":"0.4.7","genome":"primer.porcelain","ts":"2026-11-18T13:38:03.890938+00:00"}}]]></hw:envelope>
+</metadata>
+  <style>/* hw:css-modules: genome,accessibility,bridge,expression,status,fonts */
+svg, :root {
+  --dna-surface: #F5F8FF;
+  --dna-surface-alt: #FFFFFF;
+  --dna-surface-deep: #E8EFFA;
+  --dna-ink-primary: #1E3A5F;
+  --dna-ink-muted: #537395;
+  --dna-ink-on-accent: #FFFFFF;
+  --dna-ink-bright: #1E3A5F;
+  --dna-ink-sub: #5C7C9E;
+  --dna-signal: #1D4ED8;
+  --dna-signal-dim: #5C7C9E;
+  --dna-border: #C7D5EA;
+  --dna-border-tint: rgba(30,58,95,0.12);
+  --dna-seam-color: #1D4ED8;
+  --dna-chart-title-bg: #FFFFFF;
+  --dna-shadow-color: #1D4ED8;
+  --dna-diagram-shadow-color: #101828;
+  --dna-region: #F8F9FB;
+  --dna-region-border: #E9EDF3;
+  --dna-glow: 0px;
+  --dna-corner: 6;
+  --dna-rhythm-base: 2.618s;
+  --dna-bg: #F5F8FF;
+  --dna-bg-alt: #E8EFFA;
+  --dna-brand-text: #1E3A5F;
+  --dna-glyph-inner: #1D4ED8;
+  --dna-status-passing-core: #15803D;
+  --dna-status-warning-core: #B45309;
+  --dna-status-failing-core: #DC2626;
+  --dna-rhythm-slow: 4.236s;
+  --dna-rhythm-fast: 1.618s;
+  --dna-density: 0.5;
+  --dna-metric-text: #1E3A5F;
+  --dna-label-text: #1D4ED8;
+  --dna-seam-gap: #E8EFFA;
+  --dna-badge-value-text: #1E3A5F;
+  --dna-badge-pass-sep: #1D4ED8;
+  --dna-badge-pass-core: #15803D;
+  --dna-badge-warn-color: #B45309;
+  --dna-material-specular: 0.0;
+  --dna-material-roughness: 0.6;
+  --dna-font-display: 'Inter',-apple-system,system-ui,sans-serif;
+  --dna-font-mono: 'JetBrains Mono','SF Mono','Consolas',ui-monospace,monospace;
+  --dna-ink-icon: #344E6F;
+  --dna-sep: #C7D5EA;
+  --dna-status-delta-positive: #22C55E;
+  --dna-status-delta-negative: #DC2626;
+}
+/* === HyperWeave Bridge Classes ===
+ * Maps semantic class names (hw-*) to genome DNA custom properties (--dna-*).
+ * Genome-agnostic: works with ANY genome that defines the --dna-* contract.
+ */
+/* ── Surface fills ── */
+/* ── Signal / Accent ── */
+/* ── Ink / Typography ── */
+/* ── Border / Separator ── */
+/* ── Status ── */
+/* ── Extended ── */
+/* === HyperWeave Expression Layer ===
+ * CSS state machine driven by data-hw-* attributes.
+ * Genome-agnostic: all colors via --dna-* custom properties.
+ */
+/* ── Text Rendering (iOS/WebKit blur mitigation) ── */
+text {
+  text-rendering: geometricPrecision;
+  -webkit-font-smoothing: antialiased;
+  shape-rendering: geometricPrecision;
+}
+/* ── Typography ── */
+/* ── Structural ── */
+/* ── Status ── */
+/* ── Glyph ── */
+/* === Status Phenotype === */
+[data-hw-status="active"]   { --dna-status-color: #15803D; }
+[data-hw-status="passing"]  { --dna-status-color: #15803D; }
+[data-hw-status="building"] { --dna-status-color: #1D4ED8; }
+[data-hw-status="warning"]  { --dna-status-color: #B45309; }
+[data-hw-status="critical"] { --dna-status-color: #DC2626; }
+[data-hw-status="failing"]  { --dna-status-color: #DC2626; }
+[data-hw-status="offline"]  { --dna-status-color: #537395; }
+svg[data-hw-status="warning"]  { filter: drop-shadow(0 0 4px rgba(245,158,11,0.3)); }
+svg[data-hw-status="critical"],
+svg[data-hw-status="failing"]  { filter: drop-shadow(0 0 5px rgba(220,38,38,0.4)); }
+svg[data-hw-status="offline"]  { opacity: .65; filter: grayscale(45%); }
+/* === Badge State Machine v2 === */
+[data-hw-status="active"], [data-hw-status="passing"] {
+  --hw-state-core: #15803D;
+  --hw-state-sep: #1D4ED8;
+  --hw-state-ring: #1D4ED8;
+  --hw-state-value: #1E3A5F;
+  --hw-state-signal: #1D4ED8;
+  --hw-state-specular: #1D4ED8;
+  --hw-state-sweep: #1D4ED8;
+}
+[data-hw-status="warning"] {
+  --hw-state-core: #B45309;
+  --hw-state-sep: #B45309;
+  --hw-state-ring: #B45309;
+  --hw-state-value: #FDE68A;
+  --hw-state-signal: #B45309;
+  --hw-state-specular: #B45309;
+  --hw-state-sweep: #B45309;
+}
+[data-hw-status="critical"], [data-hw-status="failing"] {
+  --hw-state-core: #DC2626;
+  --hw-state-sep: #DC2626;
+  --hw-state-ring: #DC2626;
+  --hw-state-value: #FCA5A5;
+  --hw-state-signal: #DC2626;
+  --hw-state-specular: #DC2626;
+  --hw-state-sweep: #DC2626;
+}
+/* Default (neutral/offline/building). Pre-v0.3.0 these all routed through
+   --dna-signal (indicator) and --dna-badge-value-text (text) — both
+   variant-blind for automata (genome.accent + genome.badge_value_text stay
+   static teal regardless of ?variant=bone|steel|phosphor|amber|...).
+   v0.3.0 introduces TWO variant-aware fallbacks: --hw-state-tone (indicator
+   color, = primary.seam_mid) and --hw-state-value-tone (text color, =
+   primary.value_text). Both set on the SVG root via inline style by the
+   resolver dispatcher for cellular paradigm. When unset (chrome, brutalist),
+   they fall back to the pre-v0.3 vars. */
+svg:not([data-hw-status="active"]):not([data-hw-status="passing"]):not([data-hw-status="warning"]):not([data-hw-status="critical"]):not([data-hw-status="failing"]) {
+  --hw-state-core: #1D4ED8;
+  --hw-state-sep: #1D4ED8;
+  --hw-state-ring: #1D4ED8;
+  --hw-state-value: #1E3A5F;
+  --hw-state-signal: #1D4ED8;
+  --hw-state-specular: #1D4ED8;
+  --hw-state-sweep: #1D4ED8;
+}
+/* === Badge Element Classes === */
+/* State tint overlay on right panel */
+/* === Living Value: Threshold State Machine ===
+ * v0.2.25: gated by data-hw-statemode="auto" so leading-digit auto-
+ * inference fires ONLY for stateful badges (build/coverage/uptime/
+ * health/score/lint/ci/deploy/status). A STARS=6 badge has
+ * data-hw-statemode="off" and these selectors don't match —
+ * preventing the orange-warning false alarm on data-driven badges
+ * whose values happen to start with a "6" or "7".
+ *
+ * Explicit-mode badges (data-hw-statemode="explicit", set by ?state=)
+ * also bypass threshold inference: the user owns the state. */
+[data-hw-statemode="auto"][data-hw-value^="9"],
+[data-hw-statemode="auto"][data-hw-value^="8"] {
+  --dna-status-color: #15803D;
+}
+[data-hw-statemode="auto"][data-hw-value^="7"],
+[data-hw-statemode="auto"][data-hw-value^="6"] {
+  --dna-status-color: #B45309;
+}
+[data-hw-statemode="auto"][data-hw-value^="5"],
+[data-hw-statemode="auto"][data-hw-value^="4"],
+[data-hw-statemode="auto"][data-hw-value^="3"],
+[data-hw-statemode="auto"][data-hw-value^="2"],
+[data-hw-statemode="auto"][data-hw-value^="1"],
+[data-hw-statemode="auto"][data-hw-value^="0"] {
+  --dna-status-color: #DC2626;
+}
+/* === HyperWeave Status Indicator Animations ===
+ * State-dependent animation speeds for .hw-logic-bit
+ * Active: slow breathe. Warning: medium pulse. Critical: fast strobe.
+ */
+/* Active/passing: slow breathe 2s */
+/* Warning: medium pulse 0.9s */
+/* Critical/failing: strobe 0.35s */
+/* Building: faster breathe 1.5s */
+/* Offline: no animation */
+/* === Keyframes === */
+/* === HyperWeave Accessibility Layer ===
+ * Non-negotiable media queries for motion, color scheme, and forced colors.
+ * Included in EVERY artifact.
+ *
+ * CAMO NOTE (corrected 2026-08-30): an SVG served as an img — GitHub's Camo
+ * proxy included — evaluates @media (prefers-color-scheme) against the
+ * EMBEDDING element's used color-scheme (Media Queries 5; CSSWG #7213).
+ * Chromium and Firefox implement this, so the adaptive flip works in GitHub
+ * READMEs there (owner-observed on github.com, 2026-08-30). WebKit does not
+ * evaluate it in image contexts (wpt Interop #1058), so Safari and iOS
+ * readers get the artifact's BASE face — the recorded iPhone 13 behavior.
+ * Treat the single-file flip as progressive enhancement; the committed-face
+ * picture pair stays the cross-engine delivery. forced-colors remains
+ * unreliable in image contexts (CSSWG #10331). An img context also loads NO
+ * external resources of any kind, which is why the cdn font mode and
+ * github-readme delivery are mutually exclusive.
+ *
+ * Inline, object, and standalone embeds evaluate every query everywhere.
+ */
+/* ── Reduced Motion ── */
+@media (prefers-reduced-motion: reduce) {*, *::before, *::after {
+    
+    
+    transition-duration: 0.01ms !important;
+  }
+animate, animateTransform, animateMotion, set {
+    display: none !important;
+  }}
+/* ── Light Mode Override (see CAMO NOTE above — inert through img) ── */
+/* Light mode: genome alleles injected by CSS assembler into per-artifact @media block. */
+/* ── Forced Colors (Windows High Contrast) ── */
+@media (forced-colors: active) {text { fill: CanvasText !important; }
+rect, path, circle, ellipse, polygon, polyline, line {
+    stroke: CanvasText !important;
+  }}</style>
+  <defs>
+<clipPath id="hw-5fef5601-clip">
+  <rect width="159.3" height="20" rx="4"/>
+</clipPath>
+<linearGradient id="hw-5fef5601-bg" x1="0" y1="0" x2="0" y2="1">
+  <stop offset="0" stop-color="#FFFFFF"/>
+  <stop offset="1" stop-color="#F5F8FF"/>
+</linearGradient>
+<style>/* Primer badges are FLAT — suppress the global expression.css state glow
+   (warning/critical drop-shadow, offline grayscale/dim). The state lives entirely
+   in the animated mark + value word; the specimen carries no halo. Element + two
+   attribute selectors outrank the global svg[data-hw-status] rule, so this wins
+   regardless of style-block order. */
+svg[data-hw-genome="primer"][data-hw-status="warning"],
+svg[data-hw-genome="primer"][data-hw-status="critical"],
+svg[data-hw-genome="primer"][data-hw-status="failing"],
+svg[data-hw-genome="primer"][data-hw-status="offline"]{filter:none;opacity:1}
+/* State marks — each state's signature motion, all compositor (transform /
+   opacity), reduced-motion gated. Static renderers freeze at the resting frame.
+   Specimen-derived timings: ping 2.2s, spin .9s, throb 1.0s, shake .65s. */
+.hw-pri-ping{transform-box:fill-box;transform-origin:center;will-change:transform,opacity}
+.hw-pri-ping2{transform-box:fill-box;transform-origin:center;will-change:transform,opacity}
+
+@media (prefers-reduced-motion:reduce){.hw-pri-ping,.hw-pri-ping2 {}}</style>
+  </defs>
+
+<g clip-path="url(#hw-5fef5601-clip)">
+  <rect width="159.3" height="20" fill="url(#hw-5fef5601-bg)"/>
+  <rect x="0.0" y="0.0" width="50.7" height="20.0" fill="rgba(30,58,95,0.03)"/>
+  <rect x="50.7" y="0.0" width="1" height="20.0" fill="rgba(30,58,95,0.09)"/>
+  <rect x="51.7" y="0.0" width="1" height="20.0" fill="rgba(255,255,255,0.85)"/>
+
+
+  <text data-hw-zone="label"
+        x="25.4" y="13.3"
+        text-anchor="middle"
+        font-family="'JetBrains Mono', ui-monospace, monospace"
+        font-size="9.5" font-weight="600"
+        fill="#537395"
+        letter-spacing="0.052632em">STATUS</text>
+
+<g data-hw-zone="status" transform="translate(64.70002,10.0)">
+<circle class="hw-pri-ping" r="2.58" fill="none" stroke="#1AA35A" stroke-width="1.24"/>
+<circle class="hw-pri-ping2" r="2.58" fill="none" stroke="#1AA35A" stroke-width="1.24"/>
+<circle r="2.58" fill="#1AA35A"/>
+</g>
+
+  <text data-hw-zone="value"
+        x="113.5" y="13.4"
+        text-anchor="middle"
+        font-family="'JetBrains Mono', ui-monospace, monospace"
+        font-size="10.5" font-weight="700"
+        fill="#1E3A5F">experimental</text>
+</g>
+<rect x="0.6" y="0.6" width="158.1" height="18.8" rx="3.4" fill="none" stroke="rgba(255,255,255,0.55)" stroke-width="0.75"/>
+<rect x="0.5" y="0.5" width="158.3" height="19.0" rx="4" fill="none" stroke="#C7D5EA" stroke-width="1"/>
+
+</svg>
