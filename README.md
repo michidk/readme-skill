@@ -27,7 +27,7 @@ Your coding agent reads the project, writes the README, and judges the result. T
 
 ## Install
 
-Requires **Bun 1.3 only**.
+Requires **Bun 1.3 or newer**.
 
 ```sh
 git clone https://github.com/michidk/readme-skill.git
