@@ -64,7 +64,7 @@ The bundled [wave](../assets/separators/wave.svg) and [diamond](../assets/separa
 
 ### Place it with rhythm
 
-Put the first separator after the complete header block, with a `<br>` or a paragraph between it and the navigation row, never pressed against links or badges. After that, either put one before every top-level section group, or put it at two or three major transitions such as before usage, before the reference material, and before the license. Do not add one after every heading, duplicate a Markdown rule, or replace headings and navigation. Preserve headings even if every image fails to load.
+Put the first separator after the complete header block, with a `<br>` or a paragraph between it and the navigation row, never pressed against links or badges. After that, put one before every top-level (`##`) section so the motif becomes a visible rhythm. Two or three separators spread across a long README look like leftovers rather than a pattern. Do not add one after every heading, duplicate a Markdown rule, or replace headings and navigation. Preserve headings even if every image fails to load.
 
 ### Prior art
 
