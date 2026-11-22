@@ -43,11 +43,10 @@ GitHub tables do not automatically stack into a single column on mobile and may 
 
 ## Fancy design pieces
 
-Separators alone rarely make a README look designed. Spend the effort on a few pieces in the project's own visual language, following [mw2-recompiled](https://github.com/PaulCombal/mw2-recompiled):
+Separators alone rarely make a README look designed. Spend the effort on two pieces in the project's own visual language, following [mw2-recompiled](https://github.com/PaulCombal/mw2-recompiled):
 
 - **Hero:** a real screenshot cropped to about 3:1, with the name and a short tagline set in a typeface that matches the project, for example a pixel font for a block game. Render it to a raster or outlined SVG so that it does not depend on fonts installed on the viewer's machine.
 - **Call to action:** one button-style image for the first useful action, such as downloading the latest release, linked to that destination.
-- **Feature cards:** a grid image with three to six verified facts (label, large value, short line). Put it at the top of the Features section, write its alt text with all the facts, and keep the detailed list below it.
 
 Keep real Markdown headings. Image-only section headings remove the document outline, the generated anchors and the text from search, so place any decoration next to a heading, never instead of one. Keep each piece's source or generator outside the published README, and regenerate rather than hand-editing the exports.
 
@@ -59,7 +58,7 @@ A separator has to look intentional next to the project's artwork. A generic thi
 
 Start from the strongest existing visual: logo, mod or app icons, hero, screenshots. Take its palette and its texture, not only one color.
 
-- Pixel art or game assets: a pixel strip in the same style, for example the grass-and-dirt ground of block-game icons, drawn with `shape-rendering="crispEdges"` and whole-pixel cells.
+- Pixel art or game assets: a pixel strip in the same style, for example the grass-and-dirt ground of block-game icons, drawn with `shape-rendering="crispEdges"` and whole-pixel cells. One small sprite of the project's subject on the strip, such as a bike for a cycling mod, makes it recognizable; keep it to one.
 - Flat or vector branding: a full-width line or band in the brand colors, solid or as a left-to-right gradient.
 - Photographic or minimal branding: prefer serious or neutral spacing over inventing a motif.
 
@@ -74,7 +73,7 @@ The bundled [wave](../assets/separators/wave.svg) and [diamond](../assets/separa
 
 ### Place it with rhythm
 
-Put the first separator after the complete header block, with a `<br>` or a paragraph between it and the navigation row, never pressed against links or badges. After that, put one before every top-level (`##`) section so the motif becomes a visible rhythm. Two or three separators spread across a long README look like leftovers rather than a pattern. Do not add one after every heading, duplicate a Markdown rule, or replace headings and navigation. Preserve headings even if every image fails to load.
+Put the first separator after the complete header block, with a `<br>` or a paragraph between it and the navigation row, never pressed against links or badges. After that, use it sparingly: three to five times in a long README, at the boundaries between major groups such as setup, features, reference and license. A separator before every heading turns decoration into noise. Do not add one after every heading, duplicate a Markdown rule, or replace headings and navigation. Preserve headings even if every image fails to load.
 
 ### Prior art
 
