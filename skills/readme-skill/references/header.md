@@ -17,6 +17,8 @@ A useful branded layout is a centered small logo and project name, one concise d
 - Ask the user before documenting a known issue or adding a warning unless they already explicitly requested it. Omit unfinished status, missing-license notices, and absent-release commentary. Do not invent risks or write an internal checklist into the public README.
 - Small decorators are allowed when they aid scanning or match the project's style. Avoid a mandatory emoji on every heading, technology-logo walls, decorative animations, and repeated messages.
 
+In fancy mode, center the whole opening as one block, in this order: logo or icons, `<h1 align="center">`, a bold one-line tagline with at most one supporting sentence, badges, then navigation, followed by the first separator. Do not combine a left-aligned Markdown `#` title with centered badges or images below it. Move longer introductory prose below the separator, left-aligned.
+
 For HTML layout, use GitHub-compatible `h1`, `p align="center"`, `a`, and `img` with explicit width and alt text. Avoid custom CSS, script, or layout that depends on the local preview. Preserve useful anchors when changing a Markdown heading to HTML. Use empty alt text for purely decorative separators and for a decorative logo whose adjacent text already names the project.
 
 ## Review the whole visual set

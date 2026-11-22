@@ -7,6 +7,8 @@ README Skill's implementation and skill text were written for this project. No s
 - [readmeX](https://github.com/aibox22/readmeX): separation of create, review, and optimization; repository evidence and composition principles.
 - [HyperWeave](https://github.com/InnerAura/hyperweave), Apache-2.0: optional rendering dependency. Generated example graphics use version 0.4.7.
 - [ReadmeAI](https://github.com/eli64s/readme-ai): configurable generation and badge organization.
+- [andreasbm/readme](https://github.com/andreasbm/readme): full-width themed section separators placed consistently before top-level sections.
+- [capsule-render](https://github.com/kyechan99/capsule-render): brand-colored wave and slice header/footer banners.
 - [Standard Readme](https://github.com/RichardLitt/standard-readme): information architecture.
 
 Direct dependencies and their licenses are recorded in their package distributions and the lockfile. Sharp supplies raster processing; unified and its plugins parse Markdown and HTML; markdownlint checks style; github-slugger handles heading IDs; Zod validates boundary data; Commander handles the CLI.

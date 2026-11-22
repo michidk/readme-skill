@@ -16,6 +16,8 @@ readme-skill media demo.mp4 --frame 3 --output docs/assets/demo.webp --play
 
 Crop numbers are left, top, width, height in oriented source pixels. The example numbers are illustrative, not a crop to apply blindly. Dark-row detection reports candidates only: dark app UI can resemble black padding. Inspect and select an explicit crop. No automatic border removal or upscaling occurs. Local video frames require ffmpeg; YouTube uses thumbnail variants and does not download video.
 
+YouTube channels replace thumbnails. When refreshing a README, fetch the current thumbnail again with `--force` and inspect it rather than keeping an earlier export. The play indicator is centered; check that it does not cover the title text or the main subject, and crop if it does.
+
 Images can be PNG, JPEG, or WebP outputs. Default maximum width is 800 pixels, with original aspect ratio preserved. Use portrait dimensions for mobile captures. Target approximately 300 KB for a hero and 500 KB for a screenshot, but preserve text legibility. Use a linked image plus a textual video link; the play symbol is part of the exported image, not CSS.
 
 Each output has a `.source.json` record with source identity, hashes, transformations, and tool version. Keep both in version control. Unchanged inputs reuse the output. Modified or unmanaged outputs require explicit `--force`; do not use force to bypass an unexplained user edit.

@@ -6,7 +6,7 @@ Ask for a preference as described in SKILL.md. These choices change visual treat
 | --- | --- |
 | Very serious (`serious`) | Direct typography and layout. Keep useful shields, logos, screenshots, and diagrams. Use whitespace or plain Markdown rules when separation helps; omit decorative SVG separators and ornamental heading icons. |
 | Neutral (`neutral`) | A polished header, useful shields, one cohesive hero when requested, and restrained color. Use ordinary spacing between sections. Preserve good existing branding. |
-| Fancy (`fancy`) | Keep the neutral structure, then add coordinated accents and small static SVG separators at a few major transitions. Prefer one repeated motif over a different design for every section. |
+| Fancy (`fancy`) | Keep the neutral content, center the whole opening as one composed header, then add one decorative motif taken from the project's own artwork and repeat it at a few major transitions. |
 
 ## Optional columns with tables
 
@@ -41,18 +41,53 @@ Prepare video thumbnails with the play indicators and cropping described in [med
 
 GitHub tables do not automatically stack into a single column on mobile and may scroll horizontally. Check narrow-width readability when rendering verification is available. If thumbnails or labels become too small, use vertically stacked content instead. Do not rely on custom CSS or responsive layout attributes that GitHub may strip.
 
+## Fancy design pieces
+
+Separators alone rarely make a README look designed. Spend the effort on two pieces in the project's own visual language, following [mw2-recompiled](https://github.com/PaulCombal/mw2-recompiled):
+
+- **Hero:** a real screenshot cropped to about 3:1, with the name and a short tagline set in a typeface that matches the project, for example a pixel font for a block game. Render it to a raster or outlined SVG so that it does not depend on fonts installed on the viewer's machine.
+- **Call to action:** one button-style image for the first useful action, such as downloading the latest release, linked to that destination.
+
+Keep real Markdown headings. Image-only section headings remove the document outline, the generated anchors and the text from search, so place any decoration next to a heading, never instead of one. Keep each piece's source or generator outside the published README, and regenerate rather than hand-editing the exports.
+
 ## SVG separators
 
-The skill bundles two editable starting points:
+A separator has to look intentional next to the project's artwork. A generic thin line with one bump, a floating accent, or a stock template in a guessed color reads as a rendering glitch, not as decoration.
 
-- [Wave](../assets/separators/wave.svg): a shallow line with one central wave.
-- [Diamond](../assets/separators/diamond.svg): thin rules around a small geometric mark.
+### Derive the motif
 
-For fancy mode, copy a suitable template into the target repository's documentation assets or write a similarly small original SVG. Adapt its color and geometry to the existing branding. Use actual project paths in the README; never link to an installed skill directory. Keep the editable SVG and reuse it where possible. Do not overwrite user-owned artwork. Record the source template and any modifications in the delivery note; these editable vector assets are not CLI-managed raster outputs and do not require fabricated provenance sidecars.
+Start from the strongest existing visual: logo, mod or app icons, hero, screenshots. Take its palette and its texture, not only one color.
 
-Use self-contained SVG with explicit dimensions and viewBox, literal colors, and simple paths. Avoid scripts, foreignObject, external fonts/images, animation, or CSS that assumes it inherits the GitHub page theme. Keep a separator around 16–40 pixels tall at its intended desktop width, usually under 5 KB. Use a color visible against both light and dark backgrounds; test both rather than assuming transparent means theme-aware.
+- Pixel art or game assets: a pixel strip in the same style, for example the grass-and-dirt ground of block-game icons, drawn with `shape-rendering="crispEdges"` and whole-pixel cells. One small sprite of the project's subject on the strip, such as a bike for a cycling mod, makes it recognizable; keep it to one.
+- Flat or vector branding: a full-width line or band in the brand colors, solid or as a left-to-right gradient.
+- Photographic or minimal branding: prefer serious or neutral spacing over inventing a motif.
 
-Place separators between major groups, such as the header and getting started or usage and contribution details. Usually one or two suffice. Do not add one after every heading, duplicate a Markdown rule, or replace actual headings and navigation. Preserve headings even if every image fails to load.
+The bundled [wave](../assets/separators/wave.svg) and [diamond](../assets/separators/diamond.svg) files are geometry starting points only. Never publish them with only the color changed.
+
+### Give it presence
+
+- Span the content width (about 800 pixels) edge to edge. Fade or roughen the ends instead of leaving a short centered mark.
+- Make it 8 to 24 pixels tall with filled shapes or a stroke of at least 3 pixels. Hairlines disappear on GitHub's dark theme.
+- Keep every element attached to the motif. Do not add detached dots, bars, or glyphs.
+- Use one motif for the whole README.
+
+### Place it with rhythm
+
+Put the first separator after the complete header block, with a `<br>` or a paragraph between it and the navigation row, never pressed against links or badges. After that, use it sparingly: three to five times in a long README, at the boundaries between major groups such as setup, features, reference and license. A separator before every heading turns decoration into noise. Do not add one after every heading, duplicate a Markdown rule, or replace headings and navigation. Preserve headings even if every image fails to load.
+
+### Prior art
+
+- [andreasbm/readme](https://github.com/andreasbm/readme): 900×9 full-width gradient lines, one style per README, placed before every top-level section and linked to that section's anchor.
+- [capsule-render](https://github.com/kyechan99/capsule-render): wave and slice banners in project colors framing the header and footer. Commit an equivalent static SVG rather than hotlinking the service.
+- [readme-ai](https://github.com/eli64s/readme-ai) header templates: a centered block of logo, title, tagline, badges, and navigation, closed by a rule.
+
+### Build and verify
+
+For fancy mode, copy a template into the target repository's documentation assets or write a small original SVG. Use actual project paths in the README; never link to an installed skill directory. Do not overwrite user-owned artwork. Record the source and any modifications in the delivery note. Editable vector assets do not need provenance sidecars.
+
+Use self-contained SVG with explicit dimensions and viewBox, literal colors, and simple shapes. Avoid scripts, foreignObject, external fonts or images, animation, and CSS that assumes it inherits the GitHub page theme. Keep it under about 10 KB; use a `<pattern>` tile for repeating textures instead of thousands of rectangles. Choose colors visible on both light and dark backgrounds.
+
+Judge it in context, not as an isolated asset. Render the README with `preview`, look at the header and at least one mid-document transition at wide and narrow widths and in light and dark themes, and compare it with the project's icon or hero. If it would not look deliberate to a designer, redesign it or fall back to neutral spacing.
 
 Embed decorative artwork with empty alt text and a bounded width, for example:
 
