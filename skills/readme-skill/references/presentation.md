@@ -41,6 +41,16 @@ Prepare video thumbnails with the play indicators and cropping described in [med
 
 GitHub tables do not automatically stack into a single column on mobile and may scroll horizontally. Check narrow-width readability when rendering verification is available. If thumbnails or labels become too small, use vertically stacked content instead. Do not rely on custom CSS or responsive layout attributes that GitHub may strip.
 
+## Fancy design pieces
+
+Separators alone rarely make a README look designed. Spend the effort on a few pieces in the project's own visual language, following [mw2-recompiled](https://github.com/PaulCombal/mw2-recompiled):
+
+- **Hero:** a real screenshot cropped to about 3:1, with the name and a short tagline set in a typeface that matches the project, for example a pixel font for a block game. Render it to a raster or outlined SVG so that it does not depend on fonts installed on the viewer's machine.
+- **Call to action:** one button-style image for the first useful action, such as downloading the latest release, linked to that destination.
+- **Feature cards:** a grid image with three to six verified facts (label, large value, short line). Put it at the top of the Features section, write its alt text with all the facts, and keep the detailed list below it.
+
+Keep real Markdown headings. Image-only section headings remove the document outline, the generated anchors and the text from search, so place any decoration next to a heading, never instead of one. Keep each piece's source or generator outside the published README, and regenerate rather than hand-editing the exports.
+
 ## SVG separators
 
 A separator has to look intentional next to the project's artwork. A generic thin line with one bump, a floating accent, or a stock template in a guessed color reads as a rendering glitch, not as decoration.
