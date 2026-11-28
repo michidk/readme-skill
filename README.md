@@ -60,6 +60,16 @@ bunx skills add michidk/readme-skill --skill docs-skill
 
 This instruction-only skill needs no toolkit runtime. The source installer above installs `readme-skill`; install the companion separately with the command here.
 
+### Set a social preview
+
+The [social-preview](skills/social-preview/SKILL.md) skill designs the 1280×640 card GitHub shows when a repository link is shared, reuses the README artwork, and verifies the setting. GitHub has no upload API, so the agent uploads through your logged-in browser when it can, and otherwise hands you the image and the settings link.
+
+```sh
+bunx skills add michidk/readme-skill --skill social-preview
+```
+
+> Use $social-preview to create a social preview from this repository's hero image and set it.
+
 ### Try the toolkit directly
 
 This example prepares an editorial review brief for a small fixture. Run it from this checkout:

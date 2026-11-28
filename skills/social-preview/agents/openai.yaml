@@ -1,0 +1,4 @@
+interface:
+  display_name: "Social Preview"
+  short_description: "Design and set a GitHub repository's social preview image"
+  default_prompt: "Use $social-preview to design a 1280×640 social preview for this repository from its existing artwork, set it, and verify it on GitHub."

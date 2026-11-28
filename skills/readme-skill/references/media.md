@@ -38,7 +38,7 @@ Validate the exported result visually. Neither schema validation nor image decod
 
 Read [header.md](header.md) for composition and the full visual checklist. First consider the existing logo, actual screenshot, output, or a project-specific illustration. Optional AI imagery should communicate the repository's actual purpose. Use the current environment's image-generation tools, honor standing authorization, and record the nonsecret prompt and original asset separately. Compose exact typography and existing logos after generation. Do not generate fake product UI.
 
-The CLI handles general raster resizing, explicit cropping, and play overlays. Exact hero typography, AI generation, and 1280×640 social-card composition use the agent's available graphics tools; there is no dedicated hero compositor. Prepare a PNG/JPEG social preview under 1 MB and inspect its crop separately from the README hero. Upload is a distinct authorized action.
+The CLI handles general raster resizing, explicit cropping, and play overlays. Exact hero typography, AI generation, and 1280×640 social-card composition use the agent's available graphics tools; there is no dedicated hero compositor. For the social preview, use the companion `social-preview` skill when available; it covers the 1280×640 composition, the browser-only upload, and verification.
 
 Capture and inspect assets using the environment's supported tools. If no supported capture is available, use an existing verified screenshot or report the gap. Keep sensitive data out of captures.
 
