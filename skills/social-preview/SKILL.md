@@ -21,7 +21,10 @@ gh api graphql -f query='{repository(owner:"OWNER",name:"REPO"){usesCustomOpenGr
 ## Design the image
 
 - Size 1280×640 PNG or JPEG, under 1 MB. GitHub accepts 640×320 at minimum. Use an opaque background: transparent PNGs render on unpredictable colors.
-- Reuse the project's identity: its README hero, logo, actual screenshot, or established palette and fonts. When the README already has a hero, derive the card from the same artwork so the two read as one brand. Never show fake product UI.
+- Reuse the project's identity: its logo, established palette and fonts, and real imagery. Never show fake product UI.
+- Pick one image, in this order: a README hero that is mostly picture; a real screenshot or product photo; real output the project produces (renders, plots, generated files); a terminal card with one real command from the README and its real output; the logo alone.
+- Do not reuse a README hero as the whole card when it carries its own headline, feature list, diagram labels or footer text. Banners like that are unreadable at thumbnail size. Take its motif or palette instead, or use the next option.
+- Choose the most recognizable subject the project has, such as a signature creature, device or screen, not an incidental default asset such as a T-posed test model, placeholder character or empty viewer. When the obvious image shows an undressed or placeholder figure, look for a better one in related repositories, banners or release assets.
 - Show the project name large (at least 72 px cap height) and at most one short tagline. The card is read at thumbnail size, often around 400 px wide: no badges, URLs, version numbers, feature lists, or small print.
 - Keep text and logos inside a 64 px safe margin; some sites crop the edges or round the corners. Check that the name stays legible when the image is scaled to 400×200.
 - Compose exact typography yourself: write an SVG at 1280×640 with the artwork embedded or referenced, then rasterize it with Sharp (`sharp(svg).png().toFile(...)`) or the README toolkit's media tooling. Quote font families with spaces (`font-family="'Press Start 2P'"`) and confirm the font actually rendered instead of falling back. Use generated imagery only under the same rules as README hero art.
